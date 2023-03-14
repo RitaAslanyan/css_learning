@@ -1,0 +1,345 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>CSS FlexBox</title>
+    <link rel="stylesheet" href="flex.css">
+</head>
+
+<body>
+
+    <header>
+        <h1>CSS FlexBox</h1>
+    </header>
+
+    <main>
+
+        <!-- flex container -->
+        <div class="big-div">
+            <h2>Flex container</h2>
+            <div class="flex-container">
+                <div>a</div>
+                <div>b</div>
+                <div>c</div>
+            </div>
+        </div>
+
+        <!-- flex-direction -->
+        <div class="big-div">
+            <h2>flex-direction</h2>
+
+            <p>* column</p>
+            <div class="flex-container fd-column">
+                <div>a</div>
+                <div>b</div>
+                <div>c</div>
+            </div>
+
+            <p>* column-reverse</p>
+            <div class="flex-container fd-column-rev">
+                <div>a</div>
+                <div>b</div>
+                <div>c</div>
+            </div>
+
+            <p>* row</p>
+            <div class="flex-container fd-row">
+                <div>a</div>
+                <div>b</div>
+                <div>c</div>
+            </div>
+
+            <p>* row-reverse</p>
+            <div class="flex-container fd-row-rev">
+                <div>a</div>
+                <div>b</div>
+                <div>c</div>
+            </div>
+        </div>
+
+        <!-- flex-wrap -->
+        <div class="big-div">
+            <h2>flex-wrap</h2>
+
+            <p>* wrap</p>
+            <div class="flex-container wrap">
+                <div>a</div>
+                <div>b</div>
+                <div>c</div>
+                <div>d</div>
+                <div>e</div>
+                <div>f</div>
+                <div>g</div>
+                <div>h</div>
+                <div>i</div>
+                <div>j</div>
+                <div>k</div>
+                <div>l</div>
+            </div>
+
+            <p>* nowrap</p>
+            <div class="flex-container nowrap">
+                <div>a</div>
+                <div>b</div>
+                <div>c</div>
+                <div>d</div>
+                <div>e</div>
+                <div>f</div>
+                <div>g</div>
+                <div>h</div>
+                <div>i</div>
+                <div>j</div>
+                <div>k</div>
+                <div>l</div>
+            </div>
+
+            <p>* wrap-reverse</p>
+            <div class="flex-container wrap-rev">
+                <div>a</div>
+                <div>b</div>
+                <div>c</div>
+                <div>d</div>
+                <div>e</div>
+                <div>f</div>
+                <div>g</div>
+                <div>h</div>
+                <div>i</div>
+                <div>j</div>
+                <div>k</div>
+                <div>l</div>
+            </div>
+
+        </div>
+
+        <!-- flex-flow -->
+        <div class="big-div">
+            <h2>flex-flow</h2>
+
+            <p>flex-direction + flex-wrap, in this case <b>flex-flow: row nowrap;</b> </p>
+            <div class="flex-container ff">
+                <div>a</div>
+                <div>b</div>
+                <div>c</div>
+                <div>d</div>
+                <div>e</div>
+                <div>f</div>
+                <div>g</div>
+                <div>h</div>
+                <div>i</div>
+                <div>j</div>
+                <div>k</div>
+                <div>l</div>
+            </div>
+        </div>
+
+        <!-- justify-content -->
+        <div class="big-div">
+            <h2>justify-content</h2>
+
+            <p>* center</p>
+            <div class="flex-container center">
+                <div>a</div>
+                <div>b</div>
+                <div>c</div>
+            </div>
+
+            <p>* flex-start</p>
+            <div class="flex-container start">
+                <div>a</div>
+                <div>b</div>
+                <div>c</div>
+            </div>
+
+            <p>* flex-end</p>
+            <div class="flex-container end">
+                <div>a</div>
+                <div>b</div>
+                <div>c</div>
+            </div>
+
+            <p>* space-around</p>
+            <div class="flex-container spc-around">
+                <div>a</div>
+                <div>b</div>
+                <div>c</div>
+                <div>d</div>
+            </div>
+
+            <p>* space-between</p>
+            <div class="flex-container spc-between">
+                <div>a</div>
+                <div>b</div>
+                <div>c</div>
+                <div>d</div>
+            </div>
+        </div>
+
+        <!-- align-items -->
+        <div class="big-div">
+            <h2>align-items</h2>
+
+            <p>* center</p>
+            <div class="flex-container ai-center">
+                <div>a</div>
+                <div>b</div>
+                <div>c</div>
+            </div>
+
+            <p>* start</p>
+            <div class="flex-container ai-start">
+                <div>a</div>
+                <div>b</div>
+                <div>c</div>
+            </div>
+
+            <p>* end</p>
+            <div class="flex-container ai-end">
+                <div>a</div>
+                <div>b</div>
+                <div>c</div>
+            </div>
+
+            <p>* stretch</p>
+            <div class="flex-container ai-stretch">
+                <div>a</div>
+                <div>b</div>
+                <div>c</div>
+            </div>
+
+            <p>* baseline</p>
+            <div class="flex-container ai-baseline">
+                <div>
+                    <h5>a</h5>
+                </div>
+                <div>
+                    <h6>b</h6>
+                </div>
+                <div>
+                    <h4>c</h4>
+                </div>
+
+
+            </div>
+        </div>
+
+        <!-- align-content -->
+        <div class="big-div">
+            <h2>align-content</h2>
+
+            <p>* space-between</p>
+            <div class="flex-container flex-container2 ac-spc-btwn">
+                <div>a</div>
+                <div>b</div>
+                <div>c</div>
+                <div>d</div>
+                <div>e</div>
+                <div>f</div>
+                <div>g</div>
+                <div>h</div>
+                <div>i</div>
+                <div>j</div>
+                <div>k</div>
+                <div>l</div>
+                <div>m</div>
+                <div>n</div>
+            </div>
+
+            <p>* space-around</p>
+            <div class="flex-container flex-container2 ac-spc-arnd">
+                <div>a</div>
+                <div>b</div>
+                <div>c</div>
+                <div>d</div>
+                <div>e</div>
+                <div>f</div>
+                <div>g</div>
+                <div>h</div>
+                <div>i</div>
+                <div>j</div>
+                <div>k</div>
+                <div>l</div>
+                <div>m</div>
+                <div>n</div>
+            </div>
+
+            <p>* center</p>
+            <div class="flex-container flex-container2 ac-cent">
+                <div>a</div>
+                <div>b</div>
+                <div>c</div>
+                <div>d</div>
+                <div>e</div>
+                <div>f</div>
+                <div>g</div>
+                <div>h</div>
+                <div>i</div>
+                <div>j</div>
+                <div>k</div>
+                <div>l</div>
+                <div>m</div>
+                <div>n</div>
+            </div>
+
+            <p>* flex-start</p>
+            <div class="flex-container flex-container2 ac-strt">
+                <div>a</div>
+                <div>b</div>
+                <div>c</div>
+                <div>d</div>
+                <div>e</div>
+                <div>f</div>
+                <div>g</div>
+                <div>h</div>
+                <div>i</div>
+                <div>j</div>
+                <div>k</div>
+                <div>l</div>
+                <div>m</div>
+                <div>n</div>
+            </div>
+
+            <p>* stretch</p>
+            <div class="flex-container flex-container2 ac-stretch">
+                <div>a</div>
+                <div>b</div>
+                <div>c</div>
+                <div>d</div>
+                <div>e</div>
+                <div>f</div>
+                <div>g</div>
+                <div>h</div>
+                <div>i</div>
+                <div>j</div>
+                <div>k</div>
+                <div>l</div>
+                <div>m</div>
+                <div>n</div>
+            </div>
+
+        </div>
+
+        <!-- Perfect Center -->
+
+        <div class="big-div">
+            <h2>Perfect Center</h2>
+            <div class="flex-container perf-center">
+                <img src="../../image/favicon.png" alt="">
+            </div>
+        </div>
+
+        <div class="big-div">
+            <h2>Keyboard with CSS FlexBox -
+                <a href="flex_keyboard/fkeyboard.html">Link</a>
+            </h2>
+
+        </div>
+
+
+    </main>
+
+
+    <a id="fixed_link" href="../../css_learning/learn.html">Link to home page.</a>
+
+</body>
+
+</html>

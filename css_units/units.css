@@ -1,0 +1,225 @@
+a {
+    width: 145px;
+    height: 25px;
+    font-size: 110%;
+    text-align: center;
+    border: 1px solid black;
+    background-color: rgb(155, 204, 155);
+    color: black;
+    position: fixed;
+    bottom: 2px;
+    right: 10px;
+    z-index: 1;
+}
+
+h1 {
+    text-align: center;
+    color: red;
+    border: 1px ridge black;
+    margin: 10px 0;
+    padding: 5px 0;
+    background-color: rgb(251, 243, 233);
+}
+
+h2 {
+    text-align: center;
+    color: green;
+}
+
+.sty {
+    /* height: 750px; */
+    background-color: rgb(241, 253, 253);
+    border: 1px solid black;
+    position: relative;
+    top: 2px;
+}
+
+.sty2 {
+    position: relative;
+    left: 10px;
+}
+
+.sty3 {
+    height: 1400px;
+}
+
+.pos {
+    position: relative;
+    top: 20px;
+}
+
+div#px {
+    width: 2px;
+    height: 2px;
+    background-color: blue;
+}
+
+div#q {
+    width: 2q;
+    height: 2q;
+    background-color: red;
+}
+
+div#pt {
+    width: 2pt;
+    height: 2pt;
+    background-color: green;
+}
+
+div#mm {
+    width: 2mm;
+    height: 2mm;
+    background-color: yellow;
+}
+
+div#cm {
+    width: 2cm;
+    height: 2cm;
+    background-color: magenta;
+}
+
+div#pica {
+    width: 2pc;
+    height: 2pc;
+    background-color: blueviolet;
+}
+
+div#inch {
+    width: 2in;
+    height: 2in;
+    background-color: orangered;
+}
+
+
+/* div#abs {
+    border: 1px solid black;
+} */
+
+
+/* Relative length units */
+
+p.ex {
+    font-size: 2ex;
+}
+
+p.em {
+    font-size: 2em;
+}
+
+p.rem {
+    font-size: 1.25rem;
+}
+
+p.percent {
+    font-size: 150%;
+}
+
+
+/* vw example */
+
+
+/* body {
+    width: 30vw;
+    border: 1px solid black;
+} */
+
+p.vw1 {
+    width: 20vw;
+    border: 1px solid black;
+    background-color: rgb(161, 210, 161);
+}
+
+p.vw2 {
+    width: 90vw;
+    border: 1px solid black;
+    background-color: rgb(161, 210, 161);
+}
+
+
+/* vh example */
+
+
+/* 
+body {
+    height: 690vh;
+} */
+
+p.vh1 {
+    height: 10vh;
+    width: 90vw;
+    border: 1px solid black;
+    background-color: rgb(161, 210, 161);
+}
+
+p.vh2 {
+    height: 20vh;
+    width: 90vw;
+    border: 1px solid black;
+    background-color: rgb(161, 210, 161);
+}
+
+p.ch1 {
+    width: 20ch;
+    border: 1px solid black;
+    font-family: Arial;
+}
+
+p.ch2 {
+    width: 20ch;
+    border: 1px solid black;
+    font-family: Georgia;
+}
+
+p.ch3 {
+    width: 20ch;
+    border: 1px solid black;
+    font-family: Courier;
+}
+
+div.normdiv {
+    width: 90vw;
+    height: 90ph;
+    background-color: rgb(251, 251, 160);
+    border: 1px solid black;
+}
+
+div.vmin {
+    width: 1vmin;
+    height: 1vmin;
+    background-color: rgb(191, 191, 120);
+    border: 1px solid black;
+}
+
+div.vmax {
+    width: 1vmax;
+    height: 1vmax;
+    background-color: rgb(136, 136, 87);
+    border: 1px solid black;
+}
+
+.relative {
+    position: relative;
+    top: 5px;
+}
+
+.relative1 {
+    position: relative;
+    top: 10px;
+}
+
+.relative2 {
+    position: relative;
+    top: 50px;
+}
+
+.div1 {
+    width: 200px;
+    height: 200px;
+    background-color: red;
+}
+
+.div2 {
+    width: 1em;
+    height: 1em;
+    background-color: blue;
+}

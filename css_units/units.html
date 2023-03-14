@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>CSS Units</title>
+    <link rel="stylesheet" href="units.css">
+</head>
+
+<body>
+    <header>
+        <h1>CSS Units</h1>
+    </header>
+
+
+    <main>
+        <div class="sty">
+            <h2>Absolute length units</h2>
+
+            <div class="sty2">
+                <p><b>NOTE:</b> All values are given 2 to be more visible.</p><br>
+
+                <p>1px (pixel) = 1/96inch</p>
+                <div id="px"></div>
+
+                <p>1Q (Quarter-millimeters) = 1/40cm</p>
+                <div id="q"></div>
+
+                <p>1pt (point) = 1.3333px = 1/72inch</p>
+                <div id="pt"></div>
+
+                <p>1mm = 3.78px</p>
+                <div id="mm"></div>
+
+                <p>1pc (pica) = 16px = 1/6inch</p>
+                <div id="pica"></div>
+
+                <p>1cm = 37.8px = 25.2/64inch</p>
+                <div id="cm"></div>
+
+                <p>1in (inch, դյույմ) = 96px = 2.54cm</p>
+                <div id="inch"></div>
+            </div>
+        </div>
+
+        <div class="sty sty3 pos">
+            <h2>Relative length units</h2>
+            <div class="sty2">
+                <p>This is a <b>normal</b> paragraph</p><br>
+
+                <p class="ex"><b>ex</b> 1ex = 1/2 em - Sa klini hajordi kesi chap, in this case p=2ex</p><br>
+
+                <p class="em"><b>em</b> - inherits from parent element (p=1em), in this case p=2*1=2em</p><br>
+
+                <div class="div1">
+                    <div class="div2"></div>
+                </div>
+
+                <p class="rem"><b>rem</b> - based on the root of the document (html element = 16px), in this case p=16px*1.25rem=20px</p><br>
+
+                <p class="percent"><b>%</b> - 150% - p size*1.5</p><br>
+
+                <p><b>vw</b> (view width) - 1vw = 1% viewport - body-i vra vw example@ tesnelu hamar commentic hanel</p>
+                <p class="vw1">vw example 1 (20vw) - es erku paragraphneri vra nuynpes orinak a bervac</p>
+                <p class="vw2">vw example 2 (90vw) - es erku paragraphneri vra nuynpes orinak a bervac</p><br>
+
+                <p><b>vh</b> (view height) - 1vh = 1% viewport - body-i vra vh example@ tesnelu hamar commentic hanel</p>
+                <p class="vh1">vh example 1 (10vh) - Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis provident a voluptates reprehenderit dicta, accusantium, alias quia voluptatum, deleniti est quas possimus. Reiciendis hic porro facilis iure consequuntur
+                    ipsum totam.
+                </p>
+                <p class="vh2">vh example 2 (20vh) - Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis provident a voluptates reprehenderit dicta, accusantium, alias quia voluptatum, deleniti est quas possimus. Reiciendis hic porro facilis iure consequuntur
+                    ipsum totam.
+                </p><br>
+
+
+                <p><b>ch</b> - width of character</p>
+                <p class="ch1">12345678901234567890</p>
+                <p class="ch2">12345678901234567890</p>
+                <p class="ch3">12345678901234567890</p>
+                <br>
+
+                <p><b>vmin & vmax - ahavor zzveli ban</b></p>
+                <div>
+                    <div class="normdiv relative">div normal</div>
+                    <div class="vmin relative1">div vmin</div>
+                    <div class="vmax relative2">div vmax</div>
+                </div>
+
+
+            </div>
+        </div>
+
+    </main>
+
+    <a href="../../css_learning/learn.html">Link to home page.</a>
+
+</body>
+
+</html>

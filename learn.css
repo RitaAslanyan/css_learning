@@ -1,0 +1,30 @@
+header,
+nav {
+    padding: 8px;
+    text-align: center;
+}
+
+main {
+    padding: 10px;
+    text-align: center;
+    color: brown;
+    background-color: burlywood;
+    border: 2px dashed black;
+}
+
+h1 {
+    text-align: center;
+    color: brown;
+}
+
+ul {
+    display: inline;
+    margin: 0;
+    padding: 0;
+}
+
+li,
+a {
+    display: inline;
+    padding: 10px;
+}

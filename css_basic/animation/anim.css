@@ -1,0 +1,38 @@
+@keyframes change_color {
+    0% {
+        background-color: rgb(242, 180, 240);
+        left: 0;
+        top: 0;
+    }
+    25% {
+        background-color: rgb(188, 84, 184);
+        left: 400px;
+        top: 0;
+    }
+    50% {
+        background-color: rgb(110, 28, 110);
+        left: 400px;
+        top: 400px;
+    }
+    75% {
+        background-color: rgb(34, 2, 34);
+        left: 0px;
+        top: 400px;
+    }
+    100% {
+        background-color: rgb(242, 180, 240);
+        left: 0;
+        top: 0;
+    }
+}
+
+div {
+    width: 200px;
+    height: 200px;
+    background-color: rgb(242, 180, 240);
+    animation-name: change_color;
+    animation-duration: 4s;
+    animation-iteration-count: 3;
+    text-align: center;
+    position: relative;
+}

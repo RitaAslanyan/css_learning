@@ -1,0 +1,310 @@
+@keyframes header_color {
+    from {
+        background-color: rgb(248, 214, 169);
+    }
+    to {
+        background-color: dodgerblue;
+    }
+}
+
+#header {
+    border-style: groove;
+    border-radius: 5px;
+    color: rgb(24, 70, 65);
+    background-color: rgb(248, 214, 169);
+    font-size: 300%;
+    text-align: center;
+    animation: header_color 10s 4;
+}
+
+h1,
+h2,
+h3 {
+    text-align: center;
+}
+
+h1 {
+    color: red;
+}
+
+h2 {
+    color: rgb(58, 58, 147);
+}
+
+h3 {
+    border: 2px double mediumpurple;
+    border-radius: 5px;
+    color: rgb(164, 17, 91);
+}
+
+
+/* border style, width, color */
+
+.dottedB {
+    border-style: dotted;
+}
+
+.dashedB {
+    border-style: dashed;
+}
+
+.solidB {
+    border-style: solid;
+    border-width: medium;
+}
+
+.doubleB {
+    border-style: double;
+}
+
+.grooveB {
+    border-style: groove;
+}
+
+.ridgeB {
+    border-style: ridge;
+}
+
+.insetB {
+    border-style: inset;
+}
+
+.outsetB {
+    border-style: outset;
+}
+
+.noB {
+    border-style: none;
+}
+
+.hiddenB {
+    border-style: hidden;
+}
+
+.mixedB {
+    border-style: dashed double solid inset;
+}
+
+.thin {
+    border-width: thin;
+}
+
+.med {
+    border-width: medium;
+}
+
+.thick {
+    border-width: thick;
+}
+
+.px2 {
+    border-width: 2px;
+}
+
+.px10 {
+    border-width: 10px;
+}
+
+.p-color {
+    color: rgb(189, 60, 20);
+}
+
+#col1 {
+    border-color: red;
+}
+
+#col2 {
+    border-color: blue;
+}
+
+#col3 {
+    border-color: orange;
+}
+
+#col4 {
+    border-color: gray;
+}
+
+#col5 {
+    border-color: yellow;
+}
+
+#col6 {
+    border-color: goldenrod;
+}
+
+#multi {
+    border-color: blueviolet lawngreen olive lightgreen;
+}
+
+.one-style {
+    border-style: double;
+}
+
+.two-styles {
+    border-style: double dotted;
+}
+
+.three-styles {
+    border-style: dashed ridge solid;
+}
+
+.four-styles {
+    border-style: groove inset dotted outset;
+}
+
+
+/* margin */
+
+.marg {
+    margin: 80px 20px 80px 200px;
+}
+
+#marg-auto {
+    width: 500px;
+    margin: auto;
+}
+
+.div-marg {
+    border: 1px solid orangered;
+    margin-left: 70px;
+}
+
+p.marg-inher {
+    margin-left: inherit;
+}
+
+
+/* padding */
+
+.padd {
+    padding: 50px;
+}
+
+div.ex0 {
+    width: 400px;
+    background-color: aqua;
+}
+
+div.ex1 {
+    width: 400px;
+    padding: 25px;
+    background-color: burlywood;
+}
+
+div.ex2 {
+    width: 400px;
+    padding: 25px;
+    box-sizing: border-box;
+    background-color: yellow;
+}
+
+
+/* display */
+
+a {
+    display: block;
+}
+
+h4 {
+    display: inline;
+}
+
+h5 {
+    display: none;
+}
+
+h6 {
+    visibility: hidden;
+}
+
+
+/* posotions */
+
+.bord {
+    border: 3px solid #73AD21;
+    width: 500px;
+}
+
+.static {
+    position: static;
+    top: 20px;
+}
+
+.relative {
+    width: 500px;
+    height: 200px;
+    position: relative;
+    top: 30px;
+    left: 50px;
+}
+
+.relative2 {
+    width: 500px;
+    height: 300px;
+    position: relative;
+    top: 30px;
+    left: 50px;
+}
+
+.fixed {
+    height: 30px;
+    width: 300px;
+    position: fixed;
+    right: 0px;
+    bottom: 0px;
+}
+
+.absolute {
+    width: 300px;
+    height: 50px;
+    position: absolute;
+    top: 50px;
+    left: 100px;
+}
+
+.sticky {
+    position: sticky;
+    top: 0;
+}
+
+.wihe {
+    width: 500px;
+    height: 50px;
+}
+
+img {
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    left: 0;
+    z-index: -1;
+}
+
+.overf {
+    width: 200px;
+    height: 200px;
+    color: #293f0a;
+}
+
+.over-visible {
+    overflow: visible;
+}
+
+.over-hidden {
+    overflow: hidden;
+}
+
+.over-scroll {
+    overflow: scroll;
+}
+
+.over-auto {
+    overflow: auto;
+}
+
+.div-xy {
+    width: 100px;
+    height: 100px;
+    border: 3px solid #73AD21;
+}

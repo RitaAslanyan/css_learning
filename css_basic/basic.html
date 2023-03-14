@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS styling</title>
+    <link rel="stylesheet" href="basic.css">
+</head>
+
+<body>
+
+    <header class="sticky">
+        <h1 id="header">CSS lesson</h1>
+    </header>
+
+    <h1>Borders</h1>
+
+    <h2>--Border style--</h2>
+    <br>
+    <p class="dottedB">A dotted border</p>
+    <p class="dashedB">A dashed border</p>
+    <p class="solidB">A solid border</p>
+    <p class="doubleB">A double border</p>
+    <p class="grooveB">A groove border</p>
+    <p class="ridgeB">A ridge border</p>
+    <p class="insetB">An inset border</p>
+    <p class="outsetB">An outset border</p>
+    <p class="noB">No border</p>
+    <p class="hiddenB">A hidden border</p>
+    <p class="mixedB">Mixed border</p>
+    <br>
+    <p class="one-style">Border style property has One value</p>
+    <p class="two-styles">Border style property has Two values</p>
+    <p class="three-styles">Border style property has Three values</p>
+    <p class="four-styles">Border style property has Four values</p>
+
+    <br><br><br>
+
+    <h2>--Border width--</h2>
+    <br>
+    <p class="solidB thin p-color">thin solid border</p>
+    <p class="solidB med p-color">medium solid border</p>
+    <p class="solidB thick p-color">thick solid border</p>
+    <p class="solidB px2">2px solid border</p>
+    <p class="solidB px10">10px solid border</p>
+
+    <br><br><br>
+
+    <h2>--Border color--</h2>
+    <br>
+    <p id="col1" class="dottedB">A red dotted border</p>
+    <p id="col2" class="dashedB">A blue dashed border</p>
+    <p id="col3" class="doubleB">A orange double border</p>
+    <p id="col4" class="grooveB">A gray groove border</p>
+    <p id="col5" class="ridgeB">A yellow ridge border</p>
+    <p id="col6" class="insetB">An goldenrod inset border</p>
+    <p id="multi" class="solidB">A solid multicolor border - blueviolet lawngreen olive lightgreen</p>
+
+    <br><br><br>
+
+    <h3>---Shorthand border property---</h3>
+    <p>value = 2px double mediumpurple</p>
+    <p style="border-left: 5px solid red;">Beautiful text</p>
+
+    <br><br><br><br>
+    <h1>Margins</h1>
+    <p class="marg solidB px2">Margin=80px 20px 80px 200px</p>
+    <p id="marg-auto" class="solidB px2">Auto margin, width=500px</p>
+    <br>
+    <div class="div-marg">
+        <p class="marg-inher">Paragraph has inherited left margin of div</p>
+    </div>
+
+    <br><br><br><br>
+    <h1>Padding</h1>
+    <div>
+        <p class="padd solidB">50px padding for element's content</p>
+    </div>
+
+    <div class="ex0">This element's width is 400px</div>
+    <br>
+    <div class="ex1">This element's width is 400px, but with padding it becomes 450px</div>
+    <br>
+    <div class="ex2">If we want save the element's width, we use box-sizing property</div>
+
+
+    <br><br><br><br>
+    <h1>CSS Display/ Visibility</h1>
+
+    <p>display: block (a tag is inline)</p>
+
+    <a href="">Armen</a>
+    <a href="">Sedrak</a>
+    <a href="">Hermine</a>
+    <hr>
+
+    <p>display: none</p>
+    <h5>Hi, I'm h5 head</h5>
+    <hr>
+    <p>visibility: hidden</p>
+    <h6>Hi, I'm h6 head</h6>
+    <hr>
+    <hr>
+
+    <p>display: inline (h4 tag is block)</p>
+
+    <h4>h4 head</h4>
+    <h4>h4 head</h4>
+    <h4>h4 head</h4>
+    <h4>h4 head</h4>
+
+    <br><br><br><br>
+
+    <h1>CSS Position property</h1>
+
+    <h2>Static position</h2>
+    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. In cum quasi quos corrupti quas deserunt ullam, voluptate, illo velit aspernatur consequuntur accusantium aperiam impedit eligendi aliquid, harum esse eum quia?</p>
+    <div class="static bord">This div has <b><i>static</i></b> position</div>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi molestias ipsa dolor praesentium placeat quis totam ex vitae incidunt iure quas adipisci aspernatur, dolorem, debitis nostrum, laudantium soluta beatae voluptas?</p>
+
+    <br>
+    <div class="bord">
+        <h2>Relative position</h2>
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. In cum quasi quos corrupti quas deserunt ullam, voluptate, illo velit aspernatur consequuntur accusantium aperiam impedit eligendi aliquid, harum esse eum quia?</p>
+
+        <div class="relative bord">This div has <b><i>relative</i></b> position (top=20px, left=50px)</div>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi molestias ipsa dolor praesentium placeat quis totam ex vitae incidunt iure quas adipisci aspernatur, dolorem, debitis nostrum, laudantium soluta beatae voluptas?</p>
+    </div>
+
+
+    <br>
+    <h2>Fixed position</h2>
+    <p>Մեր շատ սիրելի fixed position-ը ներքևի աջ անկյունում է գտնվում։</p>
+    <div class="fixed bord">This div has <b><i>fixed</i></b> position (bottom, right)</div>
+
+    <br>
+    <h2>Absolute position</h2>
+    <p>Տենց էլ նորմալ չտարբերեցի էս absolute-ն ու relative-ը</p>
+    <div class="relative bord">This div has <b><i>relative</i></b> position
+        <div class="bord">This div has not position</div>
+    </div>
+
+    <br><br><br>
+
+    <div class="relative bord">This div has <b><i>relative</i></b> position
+        <div class="relative bord">This div has <b><i>relative</i></b> position (top=15, left=50)</div>
+    </div>
+
+    <br><br><br><br><br>
+
+    <div class="relative bord">This div has <b><i>relative</i></b> position
+        <div class="absolute bord">This div has <b><i>absolute</i></b> position (top=50, left=100)</div>
+    </div>
+
+    <br>
+    <h2>Sticky position</h2>
+    <p class="solidB multi px2 wihe">Header is sticky</p>
+
+    <br><br><br><br>
+
+    <h1>Z-index property</h1>
+
+    <div class="relative2">
+        <h2>Heading 2</h2>
+        <img src="../image/favicon.png" alt="Image">
+        <p style="color: red;">This is a paragraph blblblblblblblblblblblblblblblblblbl</p>
+    </div>
+
+    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Id eaque nemo quia nulla temporibus quis. Nostrum iste sapiente distinctio, dicta inventore dolorum est dolor qui, nesciunt quidem amet laudantium reprehenderit.</p>
+
+    <br><br><br><br>
+    <h1>CSS Overflow</h1>
+
+    <h2>Visible (by default)</h2>
+    <div class="overf over-visible bord">
+        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eius dolorem libero eaque minus! Laboriosam rerum vero in sed! Facere similique quo quam assumenda. Asperiores, ipsa adipisci dolore maxime illum excepturi! Lorem ipsum dolor sit, amet consectetur
+        adipisicing elit. Odit fugit omnis voluptas aliquid ab neque aliquam deserunt unde accusamus corporis vero quisquam, illo necessitatibus nisi quidem labore tempora quis officia!
+    </div>
+    <br><br><br><br>
+
+    <h2>Hidden</h2>
+    <div class="overf over-hidden bord">
+        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eius dolorem libero eaque minus! Laboriosam rerum vero in sed! Facere similique quo quam assumenda. Asperiores, ipsa adipisci dolore maxime illum excepturi! Lorem ipsum dolor sit, amet consectetur
+        adipisicing elit. Odit fugit omnis voluptas aliquid ab neque aliquam deserunt unde accusamus corporis vero quisquam, illo necessitatibus nisi quidem labore tempora quis officia!
+    </div>
+
+    <h2>Scroll</h2>
+    <div class="overf over-scroll bord">
+        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eius dolorem libero eaque minus! Laboriosam rerum vero in sed! Facere similique quo quam assumenda. Asperiores, ipsa adipisci dolore maxime illum excepturi! Lorem ipsum dolor sit, amet consectetur
+        adipisicing elit. Odit fugit omnis voluptas aliquid ab neque aliquam deserunt unde accusamus corporis vero quisquam, illo necessitatibus nisi quidem labore tempora quis officia!
+    </div>
+
+    <br>
+
+    <div class="overf over-scroll div-xy">
+        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eius dolorem libero eaque minus! Laboriosam rerum vero in sed! Facere similique quo quam assumenda. Asperiores, ipsa adipisci dolore maxime illum excepturi! Lorem ipsum dolor sit, amet consectetur
+        adipisicing elit. Odit fugit omnis voluptas aliquid ab neque aliquam deserunt unde accusamus corporis vero quisquam, illo necessitatibus nisi quidem labore tempora quis officia!
+    </div>
+
+    <!-- 
+    css-i mejic img-@ hanel, vor jisht ashxati
+    <div class="overf over-scroll bord">
+        <img src="../image/idk.jpg" alt="idk">
+    </div> -->
+
+
+    <h2>Auto (there is a scroll, because content is large)</h2>
+    <div class="overf over-auto bord">
+        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eius dolorem libero eaque minus! Laboriosam rerum vero in sed! Facere similique quo quam assumenda. Asperiores, ipsa adipisci dolore maxime illum excepturi! Lorem ipsum dolor sit, amet consectetur
+        adipisicing elit. Odit fugit omnis voluptas aliquid ab neque aliquam deserunt unde accusamus corporis vero quisquam, illo necessitatibus nisi quidem labore tempora quis officia!
+    </div>
+
+    <br>
+
+    <div class="overf over-scroll div-xy">
+        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eius dolorem libero eaque minus! Laboriosam rerum vero in sed! Facere similique quo quam assumenda. Asperiores, ipsa adipisci dolore maxime illum excepturi! Lorem ipsum dolor sit, amet consectetur
+        adipisicing elit. Odit fugit omnis voluptas aliquid ab neque aliquam deserunt unde accusamus corporis vero quisquam, illo necessitatibus nisi quidem labore tempora quis officia!
+    </div>
+
+    <h2>Auto (there isn't scroll, because content is small)</h2>
+    <div class="overf over-auto bord">
+        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eius dolorem libero eaque minus! Laboriosam rerum vero in sed! Facere similique quo quam assumenda. Asperiores, ipsa adipisci dolore maxime illum excepturi!
+    </div>
+
+    <h1>CSS animations</h1>
+    <a href="animation/anim.html">Animation example</a>
+    <br><br><br>
+
+</body>
+
+</html>
